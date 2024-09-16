@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa";
 function Navbar() {
     return (
         <div className="flex justify-center">
-            <nav className="list-none flex gap-5 m-5 justify-center border p-2 rounded-xl w-fit">
+            <nav className="bg-[url('01.jpg')] h-full bg-purple-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 list-none flex gap-5 m-5 justify-center p-3 rounded-xl w-fit">
                 <li>
                     <Link to="/" className="flex gap-2 place-items-center">
                         {" "}

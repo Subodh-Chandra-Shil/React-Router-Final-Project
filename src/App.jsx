@@ -12,6 +12,7 @@ import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Project from "./Project";
 import Navbar from "./Navbar";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
     const router = createBrowserRouter([
@@ -64,6 +65,14 @@ function App() {
 
     return (
         <>
+            <AnimatedCursor
+                outerStyle={{
+                    border: "3px solid ghostwhite"
+                }}
+                innerStyle={{
+                    backgroundColor: "pink"
+                }}
+            />
             <RouterProvider router={router} />
         </>
     );
