@@ -8,7 +8,14 @@ import { FaGithub } from "react-icons/fa";
 
 function Navbar() {
     return (
-        <div className="flex justify-center">
+        <div className="flex items-center justify-center">
+            <img
+                height="150px"
+                width="150px"
+                src="wf.png"
+                className="rounded-full"
+                alt=""
+            />
             <nav className="bg-[url('01.jpg')] h-full bg-purple-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 list-none flex gap-5 m-5 justify-center p-3 rounded-xl w-fit">
                 <li>
                     <Link to="/" className="flex gap-2 place-items-center">
@@ -51,6 +58,13 @@ function Navbar() {
                     </Link>
                 </li>
             </nav>
+            <img
+                height="150px"
+                width="150px"
+                src="wf.png"
+                className="rounded-full"
+                alt=""
+            />
         </div>
     );
 }
